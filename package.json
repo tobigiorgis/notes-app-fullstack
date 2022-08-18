@@ -14,6 +14,7 @@
     "dev:api": "npm run build && npm run dev --workspace=api"
   },
   "eslintConfig": {
+    "ignorePatterns": "build",
     "extends": "./node-modules/standard/eslintrc.json",
     "env": {
       "jest": true
